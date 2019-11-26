@@ -24,7 +24,7 @@
 
 # Masters Student projects
 ## 1st Year
-- [Cloud Computing and Virtualization](Masters/FirstYear/SoftwareEngineering)
+- [Cloud Computing and Virtualization](Masters/FirstYear/CloudComputingAndVirtualization)
 - Data Science
 - [Design and Implementation of Distributed Applications](Masters/FirstYear/DesignAndImplementationOfDistributedApplications)
 - [Highly Dependable Systems](Masters/FirstYear/HighlyDependableSystems)
