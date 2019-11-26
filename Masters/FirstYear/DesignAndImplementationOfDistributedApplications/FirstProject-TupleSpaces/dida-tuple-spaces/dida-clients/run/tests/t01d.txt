@@ -1,0 +1,3 @@
+﻿add <"b",DADTestB(1,"b",2)>
+read <"b",DADTestB>
+read <"b",DADTestB(2,"d",4)>

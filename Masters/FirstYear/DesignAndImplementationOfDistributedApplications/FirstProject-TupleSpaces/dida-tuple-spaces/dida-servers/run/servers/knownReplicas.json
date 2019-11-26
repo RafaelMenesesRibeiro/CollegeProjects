@@ -1,0 +1,10 @@
+﻿[
+  {
+    "ServerId": "test",
+    "ServerURL": "localhost:8099"
+  },
+  {
+    "ServerId": "sequencer",
+    "ServerURL": "localhost:2000"
+  }
+]

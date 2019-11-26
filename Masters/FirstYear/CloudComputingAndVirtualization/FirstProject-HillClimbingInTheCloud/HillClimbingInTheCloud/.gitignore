@@ -1,0 +1,14 @@
+
+*.prefs
+server/.classpath
+.project
+.vscode/settings.json
+
+bin/
+
+*.iml
+.idea
+*.class
+*/target
+*.pem
+out/

@@ -1,0 +1,5 @@
+﻿add <"ajose">
+read <"*">
+read <"ajose">
+read <"aj*">
+read <"*ose">

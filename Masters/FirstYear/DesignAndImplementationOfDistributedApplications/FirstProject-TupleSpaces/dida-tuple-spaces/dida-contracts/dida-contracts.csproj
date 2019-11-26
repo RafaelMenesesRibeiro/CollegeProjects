@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E0FBE58-E37E-403F-B557-F774D0907DD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dida_contracts</RootNamespace>
+    <AssemblyName>dida-contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="data-objects\election-objects\ElectionCoordinatorData.cs" />
+    <Compile Include="data-objects\election-objects\ElectionRequestAnswer.cs" />
+    <Compile Include="data-objects\election-objects\ElectionRequestData.cs" />
+    <Compile Include="data-objects\ElectionData.cs" />
+    <Compile Include="data-objects\reply-objects\DiscardedMessage.cs" />
+    <Compile Include="data-objects\view-change-replies\ViewCommited.cs" />
+    <Compile Include="data-objects\view-change-replies\RejectViewProposal.cs" />
+    <Compile Include="data-objects\view-change-replies\ViewProposal.cs" />
+    <Compile Include="data-objects\view-change-replies\ViewCounterProposal.cs" />
+    <Compile Include="data-objects\view-change-replies\AcceptViewProposal.cs" />
+    <Compile Include="data-objects\view-change-replies\ImAlive.cs" />
+    <Compile Include="data-objects\view-change-replies\NoReply.cs" />
+    <Compile Include="data-objects\reply-objects\LockRefused.cs" />
+    <Compile Include="data-objects\reply-objects\NoTupleFound.cs" />
+    <Compile Include="data-objects\reply-objects\TupleReply.cs" />
+    <Compile Include="data-objects\reply-objects\TupleSetReply.cs" />
+    <Compile Include="data-objects\reply-objects\ReplyData.cs" />
+    <Compile Include="data-objects\reply-objects\AckReply.cs" />
+    <Compile Include="data-objects\RequestData.cs" />
+    <Compile Include="data-objects\ServerData.cs" />
+    <Compile Include="data-objects\TotalOrderData.cs" />
+    <Compile Include="domain-objects\DIDATuple.cs" />
+    <Compile Include="domain-objects\View.cs" />
+    <Compile Include="exceptions\DidaServerExceptions.cs" />
+    <Compile Include="helpers\ClientType.cs" />
+    <Compile Include="helpers\FieldType.cs" />
+    <Compile Include="helpers\OperationType.cs" />
+    <Compile Include="helpers\Utils.cs" />
+    <Compile Include="domain-objects\tuple-space-objects\DADTestC.cs" />
+    <Compile Include="domain-objects\tuple-space-objects\DADTestB.cs" />
+    <Compile Include="domain-objects\tuple-space-objects\DADTestA.cs" />
+    <Compile Include="web-services\IClientService.cs" />
+    <Compile Include="web-services\IProcessCreationService.cs" />
+    <Compile Include="web-services\IServerService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="web-services\ISMRServerService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data-objects\README.md" />
+    <None Include="web-services\README.md" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

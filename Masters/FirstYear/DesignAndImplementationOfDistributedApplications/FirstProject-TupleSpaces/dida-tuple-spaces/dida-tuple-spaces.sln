@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dida-clients", "dida-clients\dida-clients.csproj", "{BACFF016-264B-426A-BF85-E30B153FEFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dida-servers", "dida-servers\dida-servers.csproj", "{BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dida-contracts", "dida-contracts\dida-contracts.csproj", "{8E0FBE58-E37E-403F-B557-F774D0907DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dida-puppet-master", "dida-puppet-master\dida-puppet-master.csproj", "{3D25B3F5-92BD-4506-A0AE-61D1EBBAC0A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dida-process-creation-service", "dida-process-creation-service\dida-process-creation-service.csproj", "{688E090D-2103-4F9E-ADCC-F14ED49CB40B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BACFF016-264B-426A-BF85-E30B153FEFC9} = {BACFF016-264B-426A-BF85-E30B153FEFC9}
+		{BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E} = {BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACFF016-264B-426A-BF85-E30B153FEFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACFF016-264B-426A-BF85-E30B153FEFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACFF016-264B-426A-BF85-E30B153FEFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACFF016-264B-426A-BF85-E30B153FEFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7AD74F-D822-4F90-8BEA-E1EECF7BC19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0FBE58-E37E-403F-B557-F774D0907DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0FBE58-E37E-403F-B557-F774D0907DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0FBE58-E37E-403F-B557-F774D0907DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0FBE58-E37E-403F-B557-F774D0907DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D25B3F5-92BD-4506-A0AE-61D1EBBAC0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D25B3F5-92BD-4506-A0AE-61D1EBBAC0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D25B3F5-92BD-4506-A0AE-61D1EBBAC0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D25B3F5-92BD-4506-A0AE-61D1EBBAC0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688E090D-2103-4F9E-ADCC-F14ED49CB40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688E090D-2103-4F9E-ADCC-F14ED49CB40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688E090D-2103-4F9E-ADCC-F14ED49CB40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688E090D-2103-4F9E-ADCC-F14ED49CB40B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A0453AE-F7D4-43CA-B40D-7E3D1CE7A34D}
+	EndGlobalSection
+EndGlobal

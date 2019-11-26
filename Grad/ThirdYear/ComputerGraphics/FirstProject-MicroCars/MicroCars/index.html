@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- António Sarmento, Francisco Barros, Rafael Ribeiro -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>MicroCars by G18-CG-LEIC-2017/2018</title>
+	<link rel="stylesheet" href="index.css">
+	<!-- Library files -->
+	<script src="js/ThreeJS/three.js"></script>
+	<script src="js/ThreeJS/Stats.js"></script>
+	<script src="js/Core/Globals.js"></script>
+	<script src="js/Objects/BoundingGeometry.js"></script>
+
+	<!-- Game object files -->
+	<script src="js/Objects/PhysicsBody.js"></script>
+
+	<script src="js/Objects/Cars/Car.js"></script>
+	<script src="js/Objects/Cars/CarMesh.js"></script>
+	<script src="js/Objects/Cars/CarCustomMesh.js"></script>
+	<script src="js/Objects/Cars/CarBody.js"></script>
+	<script src="js/Objects/Cars/Wheel.js"></script>
+	<script src="js/Objects/Cars/Bumper.js"></script>
+
+	<script src="js/Objects/Table.js"></script>
+	<script src="js/Objects/Board.js"></script>
+	<script src="js/Objects/Butter.js"></script>
+	<script src="js/Objects/Lamp.js"></script>
+	<script src="js/Objects/Orange.js"></script>
+	<script src="js/Objects/Track.js"></script>
+
+	<!-- Environment -->
+	<script src="js/Scenes.js"></script>
+	<script src="js/Core/CameraManager.js"></script>
+	<script src="js/Core/LightManager.js"></script>
+	<script src="js/Edibles.js"></script>
+
+	<!-- Application level file -->
+	<script src="js/Core/EventHandler.js"></script>
+	<script src="js/ThreeJS/OrbitControls.js"></script>
+	<script src="js/App.js"></script>
+	<script src="js/Game.js"></script>
+	<script src="js/MessageBox.js"></script>
+</head>
+<body>
+	<div id=benchmark></div>
+	<div id=help>
+		<!-- General controls -->
+		<p class=separator>General</p>
+		<p id=arrows   ><b>I</b> : Show / Hide this info</p>
+		<p id=arrows   ><b>← ↑ → ↓</b> : Move car</p>
+		<p id=pause    ><b>S</b> : Toggle Pause</p>
+		<p id=restart  ><b>R</b> : Restart Game</p>
+
+		<!-- Cameras controls -->
+		<p class=separator>Cameras</p>
+		<p id=camera_ortho><b>1</b> - Top Orthographic Camera</p>
+		<p id=camera_persp><b>2</b> - Bird's Eye Perspective Camera</p>
+		<p id=camera_chase><b>3</b> - Chase Perspective Camera</p>
+		<p id=camera_orbit><b>0</b> - Orbit Camera (use mouse to move)</p>
+
+		<!-- Miscellaneous controls -->
+		<p class=separator>Miscellaneous</p>
+		<p id=wireframe><b>A</b> : Toggle Wireframe Mode</p>
+		<p id=bounds   ><b>Q</b> : Toggle Bounding Geometries</p>
+
+		<!-- Lighting and Materials -->
+		<p class=separator>Lighting</p>
+		<p id=candle   ><b>C</b> : Toggle Lamps</p>
+		<p id=shaders  ><b>G</b> : Switch between Phong & Lambert shading</p>
+		<p id=headlight><b>H</b> : Toggle Headlights</p>
+		<p id=lights   ><b>L</b> : Toggle Light Calculation</p>
+		<p id=night    ><b>N</b> : Toggle Night Mode</p>
+	</div>
+	<script> init(); </script>
+</body>
+</html>

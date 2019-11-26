@@ -1,0 +1,15 @@
+export MAVEN_OPTS="-Xmx128m"
+
+cd ../tax; mvn clean compile
+cd ../bank; mvn clean compile
+cd ../hotel; mvn clean compile
+cd ../activity; mvn clean compile
+cd ../car; mvn clean compile
+cd ../broker; mvn clean compile
+
+cd ../tax; mvn spring-boot:run &
+cd ../bank; mvn spring-boot:run &
+cd ../hotel; mvn spring-boot:run &
+cd ../activity; mvn spring-boot:run &
+cd ../car; mvn spring-boot:run &
+cd ../broker; mvn spring-boot:run &

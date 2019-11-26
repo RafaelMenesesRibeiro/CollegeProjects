@@ -1,0 +1,2 @@
+﻿add <"x",DADTestB>
+take <"x",DADTestB>

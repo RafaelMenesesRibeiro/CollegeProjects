@@ -1,0 +1,63 @@
+This is SBCL 1.3.14.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+; compiling file "/home/joao/Git/PP/procura.lisp" (written 03 DEC 2018 11:09:15 PM):
+
+; /home/joao/Git/PP/procura.fasl written
+; compilation finished in 0:00:00.134
+; compiling file "/home/joao/Git/PP/G001.lisp" (written 05 DEC 2018 08:51:07 PM):
+
+; /home/joao/Git/PP/G001.fasl written
+; compilation finished in 0:00:00.135
+================================================================================
+Testing melhor.abordagem with: P0
+================================================================================
+"melhor.abordagem" 
+(0 5 21) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+================================================================================
+Testing melhor.abordagem with: P1
+================================================================================
+"melhor.abordagem" 
+(1300 82 3334) 
+Total cost: 9740
+
+Solution length: 25 (problem length: 82)
+================================================================================
+Testing melhor.abordagem with: P2
+================================================================================
+"melhor.abordagem" 
+(31736 162 11559) 
+Total cost: 22478
+
+Solution length: 55 (problem length: 162)
+================================================================================
+Testing melhor.abordagem with: P3
+================================================================================
+"melhor.abordagem" 
+(22716 245 11617) 
+Total cost: 35141
+
+Solution length: 85 (problem length: 244)
+================================================================================
+Testing melhor.abordagem with: P4
+================================================================================
+"melhor.abordagem" 
+(8024 945 23057) 
+Total cost: 79247
+
+Solution length: 195 (problem length: 472)
+================================================================================
+Testing melhor.abordagem with: P5
+================================================================================
+"melhor.abordagem" 
+(12792 694 16254) 
+Total cost: 113086
+
+Solution length: 269 (problem length: 693)

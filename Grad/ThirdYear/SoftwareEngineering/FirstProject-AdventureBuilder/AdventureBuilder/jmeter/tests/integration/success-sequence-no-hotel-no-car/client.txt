@@ -1,0 +1,3 @@
+BK12,Broker
+BK12,Client
+BK12,Activity Provider

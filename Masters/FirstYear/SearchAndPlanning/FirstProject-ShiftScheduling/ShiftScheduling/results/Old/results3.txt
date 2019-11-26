@@ -1,0 +1,26 @@
+This is SBCL 1.3.14.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+; compiling file "/home/joao/Git/PP/procura.lisp" (written 03 DEC 2018 11:09:15 PM):
+
+; /home/joao/Git/PP/procura.fasl written
+; compilation finished in 0:00:00.117
+; compiling file "/home/joao/Git/PP/G001.lisp" (written 06 DEC 2018 01:12:48 PM):
+
+; /home/joao/Git/PP/G001.fasl written
+; compilation finished in 0:00:00.138
+================================================================================
+Testing: P4
+================================================================================
+"a*.melhor.heuristica.alternativa" 
+(4136 487 18941) 
+Total cost: 77607
+
+Solution length: 188 (problem length: 472)
+================================================================================
+Testing: P5
+================================================================================

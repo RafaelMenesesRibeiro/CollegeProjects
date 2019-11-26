@@ -1,0 +1,206 @@
+This is SBCL 1.3.14.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+; compiling file "/home/joao/Git/PP/procura.lisp" (written 03 DEC 2018 11:09:15 PM):
+
+; /home/joao/Git/PP/procura.fasl written
+; compilation finished in 0:00:00.121
+; compiling file "/home/joao/Git/PP/G001.lisp" (written 05 DEC 2018 08:51:07 PM):
+
+; /home/joao/Git/PP/G001.fasl written
+; compilation finished in 0:00:00.141
+================================================================================
+Testing: P0
+================================================================================
+"largura" 
+(0 61 170) 
+Total cost: 1800
+
+Solution length: 5 (problem length: 5)
+
+"profundidade" 
+(0 5 15) 
+Total cost: 1800
+
+Solution length: 5 (problem length: 5)
+
+"profundidade-iterativa" 
+(0 168 575) 
+Total cost: 1800
+
+Solution length: 5 (problem length: 5)
+
+"ida*" 
+(0 5 11) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+
+"a*.melhor.heuristica" 
+(0 5 21) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+
+"a*.melhor.heuristica.alternativa" 
+(0 12 30) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+
+"sondagem.iterativa" 
+(4384 3010422 9062104) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+
+"ILDS" 
+(5000 92733126 216) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+
+"abordagem.alternativa" 
+(0 6 11) 
+Total cost: 1080
+
+Solution length: 3 (problem length: 5)
+================================================================================
+Testing: P1
+================================================================================
+"profundidade" 
+(8 82 3403) 
+Total cost: 29520
+
+Solution length: 82 (problem length: 82)
+
+"ida*" 
+(600 82 1381) 
+Total cost: 9808
+
+Solution length: 25 (problem length: 82)
+
+"a*.melhor.heuristica" 
+(1328 82 3334) 
+Total cost: 9740
+
+Solution length: 25 (problem length: 82)
+
+"a*.melhor.heuristica.alternativa" 
+(32 237 1309) 
+Total cost: 12778
+
+Solution length: 32 (problem length: 82)
+
+"sondagem.iterativa" 
+(4032 35607 2902784) 
+Total cost: 15005
+
+Solution length: 39 (problem length: 82)
+
+"ILDS" 
+(5228 2440 24370) 
+Total cost: 9661
+
+Solution length: 25 (problem length: 82)
+
+"abordagem.alternativa" 
+(576 83 1381) 
+Total cost: 9808
+
+Solution length: 25 (problem length: 82)
+================================================================================
+Testing: P2
+================================================================================
+"profundidade" 
+(84 162 13203) 
+Total cost: 58320
+
+Solution length: 162 (problem length: 162)
+
+"ida*" 
+(4968 162 4324) 
+Total cost: 22720
+
+Solution length: 56 (problem length: 162)
+
+"a*.melhor.heuristica" 
+(32692 162 11559) 
+Total cost: 22478
+
+Solution length: 55 (problem length: 162)
+
+"a*.melhor.heuristica.alternativa" 
+(200 536 3637) 
+Total cost: 27987
+
+Solution length: 69 (problem length: 162)
+
+"sondagem.iterativa" 
+(4280 11410 1921445) 
+Total cost: 30853
+
+Solution length: 77 (problem length: 162)
+
+"ILDS" 
+(5820 163 5273) 
+Total cost: 22573
+
+Solution length: 55 (problem length: 162)
+
+"abordagem.alternativa" 
+(4956 163 4324) 
+Total cost: 22720
+
+Solution length: 56 (problem length: 162)
+================================================================================
+Testing: P3
+================================================================================
+"profundidade" 
+(340 244 29890) 
+Total cost: 87840
+
+Solution length: 244 (problem length: 244)
+
+"ida*" 
+(21440 244 11941) 
+Total cost: 35742
+
+Solution length: 86 (problem length: 244)
+
+"a*.melhor.heuristica" 
+(185028 244 35410) 
+Total cost: 35012
+
+Solution length: 85 (problem length: 244)
+
+"a*.melhor.heuristica.alternativa" 
+(600 250 5329) 
+Total cost: 40498
+
+Solution length: 96 (problem length: 244)
+
+"sondagem.iterativa" 
+(4856 6125 1498301) 
+Total cost: 49290
+
+Solution length: 125 (problem length: 244)
+
+"ILDS" 
+(22932 245 11617) 
+Total cost: 35141
+
+Solution length: 85 (problem length: 244)
+
+"abordagem.alternativa" 
+(21140 245 11941) 
+Total cost: 35742
+
+Solution length: 86 (problem length: 244)
+================================================================================
+Testing: P4
+================================================================================

@@ -1,0 +1,7 @@
+﻿add <"a",DADTestA(1,"b")>
+read <"a*",DADTestA>
+read <"*",DADTestA>
+read <"a",DADTestA(1,"b")>
+add <DADTestB(1,"aaa",2)>
+read <DADTestB>
+read <DADTestB(1,"aaa",2)>

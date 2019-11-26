@@ -1,0 +1,50 @@
+Produtos Frescos,1
+Mercearia Salgada,2
+Mercearia Doce,3
+Dietetica,4
+Bebidas,5
+Gourmet,6
+Congelados,7
+Salgados,8
+Beleza,9
+Higinene,10
+Limpeza,11
+Decoracao,12
+Papelaria,13
+Livraria,14
+Brinquedos,15
+Videojogos,16
+Eletrodomesticos,17
+Telecomunicao,18
+Informatica,19
+Fotografia,20
+eBooks,21
+CDs,22
+Vinil,23
+Filmes,24
+DVDs,25
+Consolas,26
+Puericultura,27
+Portateis,28
+Tablets,29
+Home Cinema,30
+Colunas,31
+Auscultudaros,32
+Guitarras,33
+Baixos,34
+Baterias,35
+Trompete,36
+Trombone,37
+Clarinete,38
+Oboe,39
+Piano,40
+Kazoo,41
+Ukulele,42
+Cavaquinho,43
+Banjo,44
+Bandolim,45
+Steel Guitar,46
+Sintetizador,47
+Microfone,48
+Cabos,49
+Escalada,50
