@@ -1,6 +1,9 @@
 # CollegeProjects
 -----------------
 
+Repository of code projects of 3 Grad years plus 2 Masters years as a Computer Science and Engineering student at Instituto Superior Técnico (Portugal).
+
+
 # Grad student projects
 ## 1st Year
 - [Foundations of Programming](Grad/FirstYear/FoundationsOfProgramming)
